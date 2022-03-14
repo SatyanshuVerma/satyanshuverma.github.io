@@ -1,4 +1,5 @@
 @import url("fontawesome-all.min.css");
+/*@import url("solid.min.css");*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
 /*
@@ -1987,6 +1988,7 @@ input, select, textarea {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
+			font-size:150%;
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
@@ -2176,7 +2178,7 @@ input, select, textarea {
 	background: /*#d52349 */url("../../images/pic01.jpg");
 	background-position: center center;
 	background-size: cover;
-	width: fit-content;
+	width: 100%;
 	background-repeat: no-repeat;
 	text-align: center;
 	position: relative;
