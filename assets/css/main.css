@@ -2460,17 +2460,17 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 980px) {
+	/*@media screen and (max-width: 980px) {*/
 
 		/* Basic */
 
-			html, body {
+			/*html, body {
 				overflow-x: hidden;
-			}
+			}*/
 
 		/* Box */
 
-			.box footer ul.actions li {
+			/*.box footer ul.actions li {
 				margin: 1em 0 0 0;
 				display: block;
 			}
@@ -2481,23 +2481,23 @@ input, select, textarea {
 
 				.box footer ul.actions li:first-child {
 					margin-top: 0;
-				}
+				}*/
 
 		/* Header */
 
-			#header {
+			/*#header {
 				padding: 3.5em 0 3em 0;
-			}
+			}*/
 
 		/* Nav */
 
-			#nav {
+			/*#nav {
 				display: none;
-			}
+			}*/
 
 		/* Intro */
 
-			#intro {
+			/*#intro {
 				padding: 3em 0 0 0;
 			}
 
@@ -2527,23 +2527,23 @@ input, select, textarea {
 
 					#intro footer ul.actions {
 						margin-bottom: 0;
-					}
+					}*/
 
 		/* Main */
 
-			#main {
+			/*#main {
 				padding: 40px 0;
-			}
+			}*/
 
 		/* Copyright */
 
-			#copyright ul.links {
+			/*#copyright ul.links {
 				display: block;
-			}
+			}*/
 
 		/* Nav */
 
-			#page-wrapper {
+			/*#page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2704,36 +2704,36 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
-	}
+	}*/
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	/*@media screen and (max-width: 736px) {*/
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/*body, input, textarea, select {
 				font-size: 11pt;
 			}
 
 			h2, h3, h4, h5, h6 {
 				font-size: 1.25em;
-			}
+			}*/
 
 		/* Button */
 
-			input[type="button"].large,
+			/*input[type="button"].large,
 			input[type="submit"].large,
 			input[type="reset"].large,
 			button.large,
 			.button.large {
 				font-size: 1.1em;
 				padding: 0.65em 1.5em 0.65em 1.5em;
-			}
+			}*/
 
 		/* Actions */
 
-			ul.actions li {
+			/*ul.actions li {
 				margin: 1em 0 0 0;
 				display: block;
 			}
@@ -2744,11 +2744,11 @@ input, select, textarea {
 
 				ul.actions li:first-child {
 					margin-top: 0;
-				}
+				}*/
 
 		/* Section/Article */
 
-			section, article {
+			/*section, article {
 				margin-bottom: 20px;
 			}
 
@@ -2758,11 +2758,11 @@ input, select, textarea {
 
 			footer {
 				margin: 2em 0 0 0;
-			}
+			}*/
 
 		/* Box */
 
-			.box {
+			/*.box {
 				padding: 25px 15px 20px 15px;
 			}
 
@@ -2785,37 +2785,37 @@ input, select, textarea {
 				.box.post header > p {
 					margin-top: 0;
 					font-size: 1em;
-				}
+				}*/
 
 		/* Divided */
 
-			ul.divided li {
+			/*ul.divided li {
 				padding: 0.5em 0 0.5em 0;
-			}
+			}*/
 
 		/* Contact */
 
-			ul.contact li {
+			/*ul.contact li {
 				padding: 0.8em 0 0.8em 7em;
 			}
 
 				ul.contact li h3 {
 					top: 0.8em;
-				}
+				}*/
 
 		/* Dates */
 
-			ul.dates li {
+			/*ul.dates li {
 				padding-left: 6em;
 			}
 
 			ul.dates h3 {
 				margin: 0 0 0.5em 0;
-			}
+			}*/
 
 		/* Links */
 
-			ul.links li {
+			/*ul.links li {
 				display: block;
 				padding: 0.25em 0 0 0;
 				margin: 0.25em 0 0 0;
@@ -2825,17 +2825,17 @@ input, select, textarea {
 				ul.links li:first-child {
 					padding-top: 0;
 					margin-top: 0;
-				}
+				}*/
 
 		/* Social */
 
-			ul.social li {
+			/*ul.social li {
 				margin: 0 0.5em 0.75em 0;
-			}
+			}*/
 
 		/* Icons */
 
-			.icon.featured {
+			/*.icon.featured {
 				width: 8em;
 				margin: 0 0 3em 0;
 			}
@@ -2843,11 +2843,11 @@ input, select, textarea {
 				.icon.featured:after {
 					border-left: solid 4em transparent;
 					border-right: solid 4em transparent;
-				}
+				}*/
 
 		/* Header */
 
-			#header {
+			/*#header {
 				text-align: center;
 				padding: 2em 0;
 			}
@@ -2857,11 +2857,11 @@ input, select, textarea {
 					font-weight: 900;
 					font-size: 1.75em;
 					letter-spacing: -0.035em;
-				}
+				}*/
 
 		/* Intro */
 
-			#intro {
+			/*#intro {
 				padding: 2em 0 0 0;
 			}
 
@@ -2872,11 +2872,11 @@ input, select, textarea {
 
 				#intro h2 {
 					font-size: 1.25em;
-				}
+				}*/
 
 		/* Banner */
 
-			#banner {
+			/*#banner {
 				padding: 6em 0;
 				margin: 2em 0 0 0;
 			}
@@ -2895,18 +2895,18 @@ input, select, textarea {
 
 					#banner header p {
 						font-size: 1.2em;
-					}
+					}*/
 
 		/* Main */
 
-			#main {
+			/*#main {
 				padding: 20px 0;
-			}
+			}*/
 
 		/* Footer */
 
-			#footer {
+			/*#footer {
 				padding: 40px 0 20px 0;
 			}
 
-	}
+	}*/
