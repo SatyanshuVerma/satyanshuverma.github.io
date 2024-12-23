@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,7 +54,7 @@
                     <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1253PgiziqCHHq398IdG5V5Z79TKG0OjX/view?usp=drivesdk" target="_blank"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+                    <a href="https://drive.google.com/file/d/1yWl5Vd_zPjksNm-X50mSUglHJDhx1QHO/view?usp=sharing" target="_blank"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
                 </li>
                 <li>
                     <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
@@ -760,7 +761,116 @@
                 </style>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12">           
+  <div class="card">
+        <!-- Image Carousel for MaziWorld -->
+        <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner" id="carouselImages">
+                <!-- Images will be injected here dynamically -->
+            </div>
+            <!-- Carousel controls (optional) -->
+            <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <br />
+        <div>
+            <h4>
+                MaziWorld
+                <a href="https://mazimatic.com" target="_blank" style="vertical-align:auto"><i class="bx bx-link"></i></a>
+            </h4>
+            <p>
+                MaziWorld is a virtual world featuring NFT collections, environments like Casinoverse, Partyverse, Adventureverse, with Play 2 Earn coins.
+                <br> Role: Developed an Avatar Engine, Core Gameplay, Dedicated AWS servers using Mirror, Engineered MaziRunner, Anti-Cheat system.
+            </p>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS (necessary for carousel functionality) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script>
+    // Example array of image URLs for Tatiana Carousel
+    const imageUrlsTatiana = [
+        'images/preview/tatiana.png',
+        'images/preview/tatiana2.png'
+    ];
+
+    // Example array of image URLs for MaziWorld Carousel
+    const imageUrlsMaziWorld = [
+        'images/preview/maziworld.png',
+        'images/preview/maziworld2.png',
+        'images/preview/maziworld3.png',
+        'images/preview/maziworld4.png'
+    ];
+
+    // Function to load images for Tatiana Carousel
+    function loadCarouselImagesTatiana() {
+        const carouselInnerTatiana = document.getElementById('carouselImagestatiana');
+        imageUrlsTatiana.forEach((url, index) => {
+            const isActive = index === 0 ? 'active' : '';  // Mark the first image as active
+            const carouselItemTatiana = `
+                <div class="carousel-item ${isActive}">
+                    <img src="${url}" class="d-block w-100" alt="Tatiana Image ${index + 1}">
+                </div>
+            `;
+            carouselInnerTatiana.innerHTML += carouselItemTatiana;  // Append each item to the carousel
+        });
+    }
+
+    // Function to load images for MaziWorld Carousel
+    function loadCarouselImagesMaziWorld() {
+        const carouselInnerMaziWorld = document.getElementById('carouselImages');
+        imageUrlsMaziWorld.forEach((url, index) => {
+            const isActive = index === 0 ? 'active' : '';  // Mark the first image as active
+            const carouselItemMaziWorld = `
+                <div class="carousel-item ${isActive}">
+                    <img src="${url}" class="d-block w-100" alt="MaziWorld Image ${index + 1}">
+                </div>
+            `;
+            carouselInnerMaziWorld.innerHTML += carouselItemMaziWorld;  // Append each item to the carousel
+        });
+    }
+
+    // Load the carousel images when the page loads
+    window.onload = function() {
+        loadCarouselImagesTatiana();
+        loadCarouselImagesMaziWorld();
+    };
+    </script>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="card">
+
+
+        <iframe src="https://www.youtube.com/embed/zpbH9Yzagzs" title="Where&#39;s Samantha - iOS &amp; Android Gameplay Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <br />
+        <div>
+            <h4>
+                Where's' Samantha
+                <a href="https://wheressamantha.com/" target="_blank" style="vertical-align:auto"><i class="bx bx-link"></i></a>
+            </h4>
+            <p>
+                Combination-dependent tactics and physics-based 2D puzzle game with over 45 levels.
+                <br> Role : Gameplay, UI/UX,Optimization.
+                <br />
+            </p>
+
+
+
+        </div>
+    </div>
+
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card">
 
 
@@ -783,8 +893,29 @@
 
                             </div>
                         </div>
-
                         <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+
+
+                                <iframe src="https://www.youtube.com/embed/GiZSYpZj-4U?si=_QpfnOJTenOnLwQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                                <br />
+                                <div>
+                                    <h4>
+                                        Scarab Sudoku<a href="https://rokitstudios.com/scarab-sudoku" target="_blank" style="vertical-align:auto"><i class="bx bx-link"></i></a>
+                                    </h4>
+                                    <p>
+                                        A sudoku game based on egypt and space theme and follows along a story
+                                        <br> Role : Core Gameplay Mechanics, UI/UX.
+                                        <br />
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card">
 
 
@@ -808,32 +939,42 @@
 
 
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="col-lg-4 col-md-6 col-sm-12">
+                            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+                            
+                            <!-- Tatiana Carousel -->
                             <div class="card">
-
-
-                                <iframe src="https://www.youtube.com/embed/zpbH9Yzagzs" title="Where&#39;s Samantha - iOS &amp; Android Gameplay Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+                                <!-- Image Carousel for Tatiana -->
+                                <div id="imageCarouseltatiana" class="carousel slide" data-ride="carousel" data-interval="3000">
+                                    <div class="carousel-inner" id="carouselImagestatiana">
+                                        <!-- Images will be injected here dynamically -->
+                                    </div>
+                                    <!-- Carousel controls (optional) -->
+                                    <a class="carousel-control-prev" href="#imageCarouseltatiana" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#imageCarouseltatiana" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                                 <br />
                                 <div>
+                                    <br />
                                     <h4>
-                                        Where's' Samantha
-                                        <a href="https://wheressamantha.com/" target="_blank" style="vertical-align:auto"><i class="bx bx-link"></i></a>
+                                        Tatiana Racing
+                                        <a href="https://rokitstudios.com/tatiana-calderon-racing" target="_blank" style="vertical-align:auto"><i class="bx bx-link"></i></a>
                                     </h4>
                                     <p>
-                                        Combination-dependent tactics and physics-based 2D puzzle game with over 45 levels.
-                                        <br> Role : Gameplay.
-                                        <br />
+                                        A realistic racing game from ROKiT Games. It offers the latest in vehicle and race customization, great graphics, and the height of racing realism. A rich single-player experience.
+                                        <br> Role : Core Gameplay Mechanics, Level Design.
                                     </p>
-
-
-
                                 </div>
                             </div>
-
-                        </div>
+                        </div>                         
 
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card">
@@ -1202,8 +1343,8 @@
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+9710543543601</p>
-<p>+919806507036</p>
+                                <p>+971543543601</p>
+<p>+917987432598</p>
                     
                             </div>
                         </div>
@@ -1226,11 +1367,13 @@
 
 
                                 <div class="phone">
-                                    <a href="https://wa.me/+919806507036" target="_blank">
+                                  
                                         <i class="bi bi-whatsapp"></i>
                                         <h4>WhatsApp:</h4>
-
+                                        <a href="https://wa.me/+919806507036" target="_blank">
                                         <p>+919806507036</p>
+                                        <a href="https://wa.me/+919806507036" target="_blank">
+                                            <p>+971543543601</p>
                                     </a>
                                 </div>
 
